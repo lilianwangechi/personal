@@ -3,7 +3,7 @@
   font-family: 'Philosopher', sans-serif;
   color:rgb(255,255,255);
 }
-ul {
+.nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -11,13 +11,13 @@ ul {
   
 }
 
-li {
-  float: left;
+#nav-list{
+  float: right;
 
 }
 
 li a {
-  display: block;
+  display:block;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -40,3 +40,12 @@ h1{
 .p2{
   font-size: 200%;
 }
+.row {
+  display: flex;
+
+}
+.column {
+flex: 33.33%;
+  padding: 5px;
+}
+/* Clear floats after image containers */

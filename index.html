@@ -11,10 +11,10 @@
 <body id="grad">
 <nav>
   <ul class="nav">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Skills</a></li>
-    <li><a href="#">Contact</a></li>
-    <li><a href="#">About</a></li>
+    <li id="nav-list"><a href="#">About</a></li>
+    <li id="nav-list"><a href="#">Contacts</a></li>
+    <li id="nav-list"><a href="#">Skills</a></li>
+    <li id="nav-list"><a href="#">Home</a></li>
   </ul>
 </nav>
 
@@ -32,6 +32,7 @@
     </ul>
     <!-- Add icons instead of images -->
     <p>Skills to be gained at the end of the course</p>
+    >
     <img src="./images/javascript.png" alt="SQL" width="200"
     height="80">
     <img src="./images/react.png" alt="react" width="200"
@@ -47,23 +48,33 @@
 
     <img src="/images/github.png" alt="github logo" width="200"
          height="80">
+     </div>   
     <a href="https://github.com/lilianwangechi">Here is my Git Hub Page</a>
 <!-- Add images below with a hoover effect they should be horizontal -->
     <p>When am not learning i love to</p>
-    <ol>
-      <li>Cook</li>
+    <div class="row">
+     <div class="column">
+      <p>Cook</p>
       <img src="/images/cook.jpg" alt="I love cooking" width="200"
          height="80">
-      <li>Travel</li>
+     </div> 
+     <div class="column">
+      <p>Travel</p>
       <img src="/images/travel.jpg" alt="I love travelling" width="200"
          height="80">
-      <li>Working Out</li>
+     </div>  
+     <div class="column">  
+      <p>Work Out</p>
       <img src="/images/workout.jpg" alt="I love working out" width="200"
          height="80">
-      <li>Growing House Plants</li>
+     </div>
+     <div class="column">
+      <p>Grow House Plants</p>
       <img src="/images/houseplants.jpg" alt="I love growing houseplants" width="200"
          height="80">
-    </ol>
+     </div>
+    </div>
+</div>
 
 </body>
 </html>
