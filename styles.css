@@ -1,6 +1,17 @@
 #grad {
   background-image: linear-gradient(to bottom, rgba(128, 139, 150), rgba(86, 101, 115 ), rgba(44, 62, 80));
-}
-body {
   font-family: 'Philosopher', sans-serif;
+  color:rgb(255,255,255);
+}
+h1{
+  font-size: 350%;
+}
+.p1{
+  font-size: 250%;
+}
+.ul1{
+  font-size: 150%;
+}
+.p2{
+  font-size: 200%;
 }
