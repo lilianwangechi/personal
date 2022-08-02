@@ -57,3 +57,11 @@ flex: 33.33%;
 #effects{
 
 }
+#self{
+  float: right;
+  border-radius: 10%;
+  position: absolute;
+  width: 35%;
+  top: 40px;
+  right: 5px;
+}
